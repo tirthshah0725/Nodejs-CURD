@@ -8,8 +8,8 @@ const mongourl = process.env.DB_URL;
 
 //connection
 mongoose.connect(mongourl,{
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true
 })
 
 //Get default connection
