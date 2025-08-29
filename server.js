@@ -42,8 +42,11 @@ const db = require('./db');
 
 const bodyParser = require('body-parser')
 app.use(bodyParser.json()); //req.body
-
+app.use(express.static('public'))
 // const Menu = require('./models/menu');  //This code is use for serve file
+
+//Middleware Function
+c
 
 app.get('/',function (rep,res)
 {
