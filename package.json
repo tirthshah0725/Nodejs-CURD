@@ -16,13 +16,6 @@
     "mongoose": "^8.18.0",
     "nodemon": "^3.1.9"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tirthshah0725/Nodejs_Practicals.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tirthshah0725/Nodejs_Practicals/issues"
-  },
-  "homepage": "https://github.com/tirthshah0725/Nodejs_Practicals#readme"
+  "devDependencies": {}
+  
 }
