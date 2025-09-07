@@ -33,13 +33,12 @@ app.get('/',function (rep,res)
 })
 
 //Import the router files
-const personRouters = require('./routes/personRoutes');
-const menuRouters = require('./routes/menuRoutes');
+const personRoutes = require('./routes/personRoutes');
+const menuRoutes = require('./routes/menuRoutes');
 
 //Use Routers
-app.use('/person',personRouters);
-
-app.use('/menu',menuRouters);
+app.use('/person',personRoutes);
+app.use('/menu',menuRoutes);
 
 
 app.listen(3000,() =>{
